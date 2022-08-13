@@ -1,0 +1,555 @@
+<!--doctype html-->
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--title=================================================-->
+<title>Shopping Website</title>
+<!--stylesheet============================================-->
+<link rel="stylesheet" type="text/css" href="style.css"/>
+<!--fav-icon==============================================-->
+<link rel="shortcut icon" href="images/fav-icon.png"/>
+<!--using FontAwesome=====================================-->
+<script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+     <!--==navigation-bar==============================================-->
+     <nav class="navigation">
+        <!--logo------->
+        <a href="index.html" class="logo">GVL</a>
+        <!--menu-btn----->
+        <input type="checkbox" class="menu-btn" id="menu-btn">
+        <label for="menu-btn" class="menu-icon">
+            <span class="nav-icon">
+                <i class="fas fa-bars"></i></span>
+        </label>
+        <!--menu------->
+        <ul class="menu">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <!--right-->
+        <div class="right-elements">
+            <!--search-->
+            <a href="#" class="search"><i class="fas fa-search"></i></a>
+            <!--cart---->
+            <a href="#" class="cart"><i class="fas fa-shopping-bag"></i></a>
+            <!--user---->
+            <a href="#" class="user"><i class="far fa-user"></i></a>
+        </div>
+    </nav>
+    <!--main===============================================================-->
+    <section id="main">
+    <!--main-content----------------------------->
+    <div class="main-content">
+        <!--text------------>
+        <div class="main-text">
+            <span></span>
+            <h1> T-Shirts with Great quality</h1>
+            <p>This is our shop visit and buy now in high quality 100%</p>
+            <a href="#">Visit and Shop Now</a>
+        </div>
+        <!--img------------->
+        <div class="main-img">
+            <img alt="shirt" src="main.png">
+        </div>
+    </div>
+    </section>
+<!--==Categories==============================================-->
+<section id="categories">
+    <h2>Categories</h2>
+    <div class="category-container">
+    <!--box------------------------>
+    <a href="#" class="category-box">
+        <img alt="shirts" src="c-1.png">
+        <span>Shirts</span>
+    </a>
+    <!--box------------------------>
+    <a href="#" class="category-box">
+        <img alt="pents" src="c-2.png">
+        <span>Pents</span>
+    </a>
+    <!--box------------------------>
+    <a href="#" class="category-box">
+        <img alt="jackets" src="c-3.png">
+        <span>Jackets</span>
+    </a>
+    <!--box------------------------>
+    <a href="#" class="category-box">
+        <img alt="shoes" src="c-4.png">
+        <span>Shoes</span>
+    </a>
+</div>
+</section>
+<!--==Feature=product===============================================================-->
+<section id="feature-product">
+    <h1>Feature Product</h1>
+    <div class="feature-product-container">
+    
+        <!--box-1---------------------->
+        <div class="feature-product-box">
+            <!--img------------------>
+            <div class="product-feature-img">
+                <img alt="shirt" src="p-1.png">
+            </div>
+            <!--text-contaier--------->
+            <div class="product-feature-text-container">
+                <!--text-->
+                <div class="product-feature-text">
+                    <strong>Unique Collection</strong>
+                    <span>2,200.00</span>
+                </div>
+                <!--cart-like-->
+                <div class="cart-like">
+                    <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                    <a href="#"><i class="far fa-heart"></i></a>
+                </div>
+                
+            </div>
+        </div>
+        <!--box-2---------------------->
+        <div class="feature-product-box">
+            <!--img------------------>
+            <div class="product-feature-img">
+                <img alt="shirt" src="p-2.png">
+            </div>
+            <!--text-contaier--------->
+            <div class="product-feature-text-container">
+                <!--text-->
+                <div class="product-feature-text">
+                    <strong>Unique Collection</strong>
+                    <span>850.00</span>
+                </div>
+                <!--cart-like-->
+                <div class="cart-like">
+                    <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                    <a href="#"><i class="far fa-heart"></i></a>
+                </div>
+                
+            </div>
+        </div>
+        <!--box-3---------------------->
+        <div class="feature-product-box">
+            <!--img------------------>
+            <div class="product-feature-img">
+                <img alt="shirt" src="p-3.png">
+            </div>
+            <!--text-contaier--------->
+            <div class="product-feature-text-container">
+                <!--text-->
+                <div class="product-feature-text">
+                    <strong>Unique Collection</strong>
+                    <span>480.00</span>
+                </div>
+                <!--cart-like-->
+                <div class="cart-like">
+                    <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                    <a href="#"><i class="far fa-heart"></i></a>
+                </div>
+                
+            </div>
+        </div>
+        <!--box-4---------------------->
+        <div class="feature-product-box">
+            <!--img------------------>
+            <div class="product-feature-img">
+                <img alt="shirt" src="p-4.png">
+            </div>
+            <!--text-contaier--------->
+            <div class="product-feature-text-container">
+                <!--text-->
+                <div class="product-feature-text">
+                    <strong>Unique Collection</strong>
+                    <span>570.00</span>
+                </div>
+                <!--cart-like-->
+                <div class="cart-like">
+                    <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                    <a href="#"><i class="far fa-heart"></i></a>
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</section>
+    <!--==banner==============================================================-->
+    <section id="banner">
+        <!--text------>
+        <div class="banner-text">
+            <strong>Beautiful Shoes</strong>
+            <span>From 3,900</span>
+            <p>Long Lasting and Confortable to use. This is only for you.</p>
+            <a href="#">Shop Now</a>
+        </div>
+        <!--img------->
+        <div class="banner-img">
+            <img alt="" src="banner.png">
+        </div> 
+    </section>
+    <!--==products=============================================================-->
+    <section id="products">
+        <!--heading------------------------------------------------->
+        <div class="product-heading">
+            <h3>Our Product</h3>
+        </div>
+        <!--product-container--------------------------------------->
+        <div class="feature-product-container">
+    
+            <!--box-1---------------------->
+            <div class="feature-product-box">
+    
+                <!--img------------------>
+                <div class="product-feature-img">
+                    <img alt="shirt" src="pro-1.png">
+                </div>
+    
+                <!--text-contaier--------->
+                <div class="product-feature-text-container">
+                    <!--text-->
+                    <div class="product-feature-text">
+                        <strong>Unique Collection</strong>
+                        <span>999.00</span>
+                    </div>
+                    <!--cart-like-->
+                    <div class="cart-like">
+                        <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                        <a href="#"><i class="far fa-heart"></i></a>
+                    </div>
+                    
+                </div>
+    
+            </div>
+    
+    
+    
+            <!--box-2---------------------->
+            <div class="feature-product-box">
+    
+                <!--img------------------>
+                <div class="product-feature-img">
+                    <img alt="shirt" src="pro-2.png">
+                </div>
+    
+                <!--text-contaier--------->
+                <div class="product-feature-text-container">
+                    <!--text-->
+                    <div class="product-feature-text">
+                        <strong>Unique Collection</strong>
+                        <span>1,500.00</span>
+                    </div>
+                    <!--cart-like-->
+                    <div class="cart-like">
+                        <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                        <a href="#"><i class="far fa-heart"></i></a>
+                    </div>
+                    
+                </div>
+    
+            </div>
+    
+    
+    
+    
+            <!--box-3---------------------->
+            <div class="feature-product-box">
+    
+                <!--img------------------>
+                <div class="product-feature-img">
+                    <img alt="shirt" src="pro-3.png">
+                </div>
+    
+                <!--text-contaier--------->
+                <div class="product-feature-text-container">
+                    <!--text-->
+                    <div class="product-feature-text">
+                        <strong>Unique Collection</strong>
+                        <span>1,900.00</span>
+                    </div>
+                    <!--cart-like-->
+                    <div class="cart-like">
+                        <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                        <a href="#"><i class="far fa-heart"></i></a>
+                    </div>
+                    
+                </div>
+    
+            </div>
+    
+    
+    
+    
+            <!--box-4---------------------->
+            <div class="feature-product-box">
+    
+                <!--img------------------>
+                <div class="product-feature-img">
+                    <img alt="shirt" src="pro-4.png">
+                </div>
+    
+                <!--text-contaier--------->
+                <div class="product-feature-text-container">
+                    <!--text-->
+                    <div class="product-feature-text">
+                        <strong>Unique Collection</strong>
+                        <span>850.00</span>
+                    </div>
+                    <!--cart-like-->
+                    <div class="cart-like">
+                        <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                        <a href="#"><i class="far fa-heart"></i></a>
+                    </div>
+                    
+                </div>
+    
+            </div>
+            <!--box-5---------------------->
+            <div class="feature-product-box">
+    
+                <!--img------------------>
+                <div class="product-feature-img">
+                    <img alt="shirt" src="pro-5.png">
+                </div>
+    
+                <!--text-contaier--------->
+                <div class="product-feature-text-container">
+                    <!--text-->
+                    <div class="product-feature-text">
+                        <strong>Unique Collection</strong>
+                        <span>1,000.00</span>
+                    </div>
+                    <!--cart-like-->
+                    <div class="cart-like">
+                        <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                        <a href="#"><i class="far fa-heart"></i></a>
+                    </div>
+                    
+                </div>
+    
+            </div>
+            <!--box-6---------------------->
+            <div class="feature-product-box">
+    
+                <!--img------------------>
+                <div class="product-feature-img">
+                    <img alt="shirt" src="pro-6.png">
+                </div>
+    
+                <!--text-contaier--------->
+                <div class="product-feature-text-container">
+                    <!--text-->
+                    <div class="product-feature-text">
+                        <strong>Unique Collection</strong>
+                        <span>2,500.00</span>
+                    </div>
+                    <!--cart-like-->
+                    <div class="cart-like">
+                        <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                        <a href="#"><i class="far fa-heart"></i></a>
+                    </div>
+                    
+                </div>
+    
+            </div>
+            <!--box-7---------------------->
+            <div class="feature-product-box">
+    
+                <!--img------------------>
+                <div class="product-feature-img">
+                    <img alt="shirt" src="pro-7.png">
+                </div>
+    
+                <!--text-contaier--------->
+                <div class="product-feature-text-container">
+                    <!--text-->
+                    <div class="product-feature-text">
+                        <strong>Unique Collection</strong>
+                        <span>4,000.00</span>
+                    </div>
+                    <!--cart-like-->
+                    <div class="cart-like">
+                        <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                        <a href="#"><i class="far fa-heart"></i></a>
+                    </div>
+                    
+                </div>
+    
+            </div>
+            <!--box-8---------------------->
+            <div class="feature-product-box">
+    
+                <!--img------------------>
+                <div class="product-feature-img">
+                    <img alt="shirt" src="pro-8.png">
+                </div>
+    
+                <!--text-contaier--------->
+                <div class="product-feature-text-container">
+                    <!--text-->
+                    <div class="product-feature-text">
+                        <strong>Unique Collection</strong>
+                        <span>3,500.00</span>
+                    </div>
+                    <!--cart-like-->
+                    <div class="cart-like">
+                        <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                        <a href="#"><i class="far fa-heart"></i></a>
+                    </div>
+                    
+                </div>
+    
+            </div>
+            
+        </div>
+    </section>
+    <!--==banner==============================================================-->
+    <section id="banner" class="banner-reverse">
+        <!--text------>
+        <div class="banner-text">
+            <strong>Beautiful Shoes</strong>
+            <span>From 3,900</span>
+            <p>Long Lasting and Confortable to use. This is only for you.</p>
+            <a href="#">Shop Now</a>
+        </div>
+        <!--img------->
+        <div class="banner-img">
+            <img alt="" src="banner-2.png">
+        </div> 
+    </section>
+    <!--==Latest-News=========================================================-->
+    <section id="news">
+        <!--heading-------->
+        <div class="news-heading">
+            <h3>Latest News</h3>
+        </div>
+        <!--container------>
+        <div class="news-box-container">
+            
+            <!--box------>
+            <div class="news-box">
+                <!--img--->
+                <div class="news-img">
+                    <img alt="news" src="pro-7.png">
+                    <!--label-->
+                    <div class="news-label">
+                        New
+                    </div>
+                </div>
+                <!--text-->
+                <div class="news-text">
+                    <strong>We Provide You The Best Things</strong>
+                    <span>Admin | Products</span>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+            <!--box------>
+            <div class="news-box">
+                <!--img--->
+                <div class="news-img">
+                    <img alt="news" src="pro-2.png">
+                    <!--label-->
+                    <div class="news-label">
+                        New
+                    </div>
+                </div>
+                <!--text-->
+                <div class="news-text">
+                    <strong>We Provide You The Best Things</strong>
+                    <span>Admin | Products</span>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+            <!--box------>
+            <div class="news-box">
+                <!--img--->
+                <div class="news-img">
+                    <img alt="news" src="news-3.png">
+                    <!--label-->
+                    <div class="news-label">
+                        New
+                    </div>
+                </div>
+                <!--text-->
+                <div class="news-text">
+                    <strong>We Provide You The Best Things</strong>
+                    <span>Admin | Products</span>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--==footer=================================================================-->
+    <footer>
+        <div class="footer-container">
+    
+            <div class="footer-logo-container">
+                <!--logo-------------->
+                <div class="footer-logo">
+                    GVL
+                </div>
+                <span></span>
+                <!--social-links------>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-google"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+    
+    
+    
+    
+    
+            <!--footer-menu---------------------------------------->
+            <div class="footer-menu">
+    
+                <!--footer-menu-box----->
+                <div class="footer-menu-box">
+                    <strong>Product</strong>
+                    <ul>
+                        <li><a href="#">Women</a></li>
+                        <li><a href="#">Latest Kids Clothes</a></li>
+                        <li><a href="#">New Men Shoes</a></li>
+                    </ul>
+                </div>
+    
+                <!--footer-menu-box----->
+                <div class="footer-menu-box">
+                    <strong>Contact</strong>
+                    <ul>
+                        <li>vanzlemi26@gmail.com</li>
+                        <li>09057779013</li>
+                    </ul>
+                </div>
+    
+                <!--footer-menu-box----->
+                <div class="footer-menu-box">
+                    <strong>Company</strong>
+                    <ul>
+                        <li><a href="#"></a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <!--footer-menu-box----->
+                <div class="footer-menu-box">
+                    <strong></strong>
+                    <ul>
+                        <li><a href="#"></a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+    
+         
+        </div>
+        </footer>
+        <span class=""></span>
+    
+</body>
+</html>
+  
+  
